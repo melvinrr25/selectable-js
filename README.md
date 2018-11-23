@@ -22,3 +22,7 @@ Nice-looking HTML dropdowns (select multiple)
   select.selectable();
 </script> 
 ```
+
+## Result
+
+![alt text](https://raw.githubusercontent.com/melvinrr25/selectable-js/master/example.gif)
