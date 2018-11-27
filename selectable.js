@@ -195,13 +195,16 @@
     var search = build('input'); // input for searching
 
     optionsChosenContainer.addClass('stbl-chosen-options-wrapper');
+    
     arrowDown.addClass('stbl-arrow-down');
+    
     searchParent
       .addClass('stbl-search-parent')
       .appendNode(search);
+    
     search
       .addClass('stbl-search')
-      .addEventListener('keyup', handleSearchTyping(list))
+      .addEventListener('keyup', handleSearchTyping(list));
 
     listContainer
       .appendNode(searchParent)
